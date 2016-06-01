@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9C6D83DA-8F18-40A4-8B35-6C4367501B4B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TeamViewerNet</RootNamespace>
+    <AssemblyName>TeamViewerNet</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RestSharp">
+      <HintPath>..\packages\RestSharp.104.4.0\lib\net4\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="API.cs" />
+    <Compile Include="AppState.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="Models\BaseModel.cs" />
+    <Compile Include="Models\BaseRequestModel.cs" />
+    <Compile Include="Models\Request\GetGroupsRequest.cs" />
+    <Compile Include="Models\Request\GetReportsConnectionsRequest.cs" />
+    <Compile Include="Models\Request\GetSessionsRequest.cs" />
+    <Compile Include="Models\Request\PostSessionsRequest.cs" />
+    <Compile Include="Models\Request\PostSessionRequest.cs" />
+    <Compile Include="Models\Request\PostUsersRequest.cs" />
+    <Compile Include="Models\Request\PutReportConnectionsRequest.cs" />
+    <Compile Include="Models\Request\PutUserRequest.cs" />
+    <Compile Include="Models\Request\ShareGroupUser.cs" />
+    <Compile Include="Models\Request\Objects\ShareGroupUserPermissions.cs" />
+    <Compile Include="Models\Response\AccountResponse.cs" />
+    <Compile Include="Models\Response\GetGroupResponse.cs" />
+    <Compile Include="Models\Response\GetGroupsResponse.cs" />
+    <Compile Include="Models\Response\GetReportConnectionsResponse.cs" />
+    <Compile Include="Models\Response\GetSessionsResponse.cs" />
+    <Compile Include="Models\Response\GetUserResponse.cs" />
+    <Compile Include="Models\Response\ErrorResponse.cs" />
+    <Compile Include="Models\Response\GetUsersResponse.cs" />
+    <Compile Include="Models\Response\OAuthGrantAccessDataResponse.cs" />
+    <Compile Include="Models\Response\OAuthGrantAccessResponse.cs" />
+    <Compile Include="Models\Response\Objects\ReportRecord.cs" />
+    <Compile Include="Models\Response\Objects\SessionEndCustomer.cs" />
+    <Compile Include="Models\Response\Objects\GetSessionsSession.cs" />
+    <Compile Include="Models\Response\Objects\GroupOwner.cs" />
+    <Compile Include="Models\Response\Objects\GroupSharedWith.cs" />
+    <Compile Include="Models\Response\PingResponse.cs" />
+    <Compile Include="Models\Response\PostSessionsResponse.cs" />
+    <Compile Include="Models\Response\TokenResponse.cs" />
+    <Compile Include="Models\AuthCredentials.cs" />
+    <Compile Include="Models\BaseResponseModel.cs" />
+    <Compile Include="Models\Request\GetUsersRequest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

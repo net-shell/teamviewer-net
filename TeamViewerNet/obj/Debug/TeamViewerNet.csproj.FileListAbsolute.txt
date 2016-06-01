@@ -1,0 +1,14 @@
+C:\Users\bbalkanski\Documents\Visual Studio 2012\Projects\TeamViewerNet\TeamViewerNet\bin\Debug\TeamViewerNet.dll
+C:\Users\bbalkanski\Documents\Visual Studio 2012\Projects\TeamViewerNet\TeamViewerNet\bin\Debug\TeamViewerNet.pdb
+C:\Users\bbalkanski\Documents\Visual Studio 2012\Projects\TeamViewerNet\TeamViewerNet\obj\Debug\TeamViewerNet.dll
+C:\Users\bbalkanski\Documents\Visual Studio 2012\Projects\TeamViewerNet\TeamViewerNet\obj\Debug\TeamViewerNet.pdb
+C:\Users\bbalkanski\Documents\Visual Studio 2012\Projects\TeamViewerNet\TeamViewerNet\bin\Debug\RestSharp.dll
+C:\Users\bbalkanski\Documents\Visual Studio 2012\Projects\TeamViewerNet\TeamViewerNet\bin\Debug\RestSharp.xml
+C:\Users\bbalkanski\Documents\Visual Studio 2012\Projects\TeamViewerNet\TeamViewerNet\obj\Debug\TeamViewerNet.csprojResolveAssemblyReference.cache
+C:\Users\bbalkanski\Dropbox\VSProjects\TeamViewerNet\TeamViewerNet\obj\Debug\TeamViewerNet.dll
+C:\Users\bbalkanski\Dropbox\VSProjects\TeamViewerNet\TeamViewerNet\obj\Debug\TeamViewerNet.pdb
+C:\Users\bbalkanski\Dropbox\VSProjects\TeamViewerNet\TeamViewerNet\bin\Debug\TeamViewerNet.dll
+C:\Users\bbalkanski\Dropbox\VSProjects\TeamViewerNet\TeamViewerNet\bin\Debug\TeamViewerNet.pdb
+C:\Users\bbalkanski\Dropbox\VSProjects\TeamViewerNet\TeamViewerNet\bin\Debug\RestSharp.dll
+C:\Users\bbalkanski\Dropbox\VSProjects\TeamViewerNet\TeamViewerNet\bin\Debug\RestSharp.xml
+C:\Users\bbalkanski\Dropbox\VSProjects\TeamViewerNet\TeamViewerNet\obj\Debug\TeamViewerNet.csprojResolveAssemblyReference.cache
